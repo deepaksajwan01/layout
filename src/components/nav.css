@@ -1,0 +1,70 @@
+.nav-wrap {
+  display: flex;
+  background: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 24px;
+}
+
+.app-title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.user-details-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-wrap {
+  margin-left: 25.3px;
+}
+
+.user-title {
+  margin-left: 24px;
+}
+
+.logout-wrap {
+  position: absolute;
+  top: 60px;
+  right: 2px;
+  padding: 24px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #c1cbd9;
+  font-size: 14px;
+  cursor: pointer;
+  filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.2));
+}
+
+.logout-email {
+  color: #828d9e;
+  padding: 5px 0 20px 0px;
+}
+.logout-button button {
+  border: 1px solid #c1cbd9;
+  border-radius: 3px;
+  height: 32px;
+  width: 144px;
+  outline: none;
+  background: #edf2f7;
+}
+
+.logout-click {
+  background: #edf2f7;
+}
