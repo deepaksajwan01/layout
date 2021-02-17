@@ -8,3 +8,8 @@
   height: 100vh;
   background: #f5f7fa;
 }
+
+.hero-section {
+  display: flex;
+  border: 8px solid #dde3ed;
+}

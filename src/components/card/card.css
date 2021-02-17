@@ -5,8 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
-  height: calc(100vh - 67px);
+  height: calc(100vh - 83px);
+  flex-direction: column;
+  flex: 1;
 }
 
 .action-wrap {
@@ -72,4 +73,12 @@
   /* border: 1px solid red; */
   /* padding: 5px; */
   line-height: 28px;
+}
+
+.action-title-wrap {
+  font-size: 32px;
+  line-height: 48px;
+  color: #353d45;
+  margin-bottom: 48px;
+  font-weight: 200;
 }
