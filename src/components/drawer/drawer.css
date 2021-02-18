@@ -2,14 +2,16 @@
   background: #262e36;
   transition: 300ms ease all;
   display: flex;
+  width: 280px;
+  overflow: hidden;
 }
 
 .open-drawer {
-  width: 280px;
+  /* width: 280px; */
 }
 .close-drawer {
   width: 64px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .drawer-container {
@@ -21,9 +23,14 @@
 
 .top {
   display: flex;
+  width: 280px;
 }
 .drawer-list {
   width: 100%;
+}
+
+.drawer-list a {
+  text-decoration: none;
 }
 
 .drawer-list-item {
@@ -31,12 +38,14 @@
 
 .lsit-item-wrap {
   display: flex;
-
-  /* padding: 24px; */
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   padding: 24px;
+}
+
+.drawer-list-item a {
+  text-decoration: none;
 }
 
 .lsit-item-wrap:hover {
@@ -57,4 +66,8 @@
 
 .rotate-icon img {
   transform: rotate(180deg);
+}
+
+.active-drawer-link {
+  background: #0050f2;
 }
