@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import "./nav.css"
 
+import Button from "./Button"
+
 import logo from "../images/ZEISS_Logo.svg"
 import user from "../images/user_icon.svg"
 
@@ -35,7 +37,8 @@ export default function Nav() {
             <div className='logout-email'>
               <p>john.doe@zeiss.com</p>
             </div>
-            <div
+            <Button />
+            {/* <div
               className='logout-button'
               onClick={(e) => {
                 console.log("logout!!!!")
@@ -43,7 +46,7 @@ export default function Nav() {
               }}
             >
               <button>Logout</button>
-            </div>
+            </div> */}
           </div>
         ) : null}
       </div>

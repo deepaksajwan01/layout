@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom"
 import "./drawer.css"
 import home from "../../images/home_icon.svg"
 import arrow from "../../images/arrow_icon.svg"
+import NavTestlink from "./NavTestlink"
 
 export default function Drawer() {
   const [toggleDrawer, setToggleDrawer] = useState(false)
@@ -14,44 +15,19 @@ export default function Drawer() {
         <div className='top'>
           <ul className='drawer-list'>
             <NavLink activeClassName='active-drawer-link' exact to='/'>
-              <li className='drawer-list-item'>
-                <div className='lsit-item-wrap'>
-                  <img src={home} alt='' />
-                  <p className='list-item-title'>Home</p>
-                </div>
-              </li>
+              <NavTestlink src={home} title={"Home"} />
             </NavLink>
             <NavLink exact to='/'>
-              <li className='drawer-list-item'>
-                <div className='lsit-item-wrap'>
-                  <img src={home} alt='' />
-                  <p className='list-item-title'>My Projects</p>
-                </div>
-              </li>
+              <NavTestlink src={home} title={"My Projects"} />
             </NavLink>
             <NavLink exact to='/'>
-              <li className='drawer-list-item'>
-                <div className='lsit-item-wrap'>
-                  <img src={home} alt='' />
-                  <p className='list-item-title'>AI Modles</p>
-                </div>
-              </li>
+              <NavTestlink src={home} title={"AI Modles"} />
             </NavLink>
             <NavLink exact to='/'>
-              <li className='drawer-list-item'>
-                <div className='lsit-item-wrap'>
-                  <img src={home} alt='' />
-                  <p className='list-item-title'>Settings</p>
-                </div>
-              </li>
+              <NavTestlink src={home} title={"Settings"} />
             </NavLink>
             <NavLink exact to='/'>
-              <li className='drawer-list-item'>
-                <div className='lsit-item-wrap'>
-                  <img src={home} alt='' />
-                  <p className='list-item-title'>About</p>
-                </div>
-              </li>
+              <NavTestlink src={home} title={"About"} />
             </NavLink>
           </ul>
         </div>
